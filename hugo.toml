@@ -32,6 +32,7 @@ buildExpired = false
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
+  DateFormat = "2006年01月02日"
 
   [params.homeInfoParams]
     Title = "你好"
@@ -55,12 +56,6 @@ buildExpired = false
   name = "笔记"
   url = "/notes/"
   weight = 10
-
-[[menu.main]]
-  identifier = "categories"
-  name = "分类"
-  url = "/categories/"
-  weight = 20
 
 [[menu.main]]
   identifier = "tags"

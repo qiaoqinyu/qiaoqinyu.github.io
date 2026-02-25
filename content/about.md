@@ -2,11 +2,13 @@
 title: "关于"
 date: 2026-02-25
 draft: false
+hideMeta: true
+ShowToc: false
 ---
 
 ## 关于我
 
-这里写关于你自己的介绍。
+一个持续精进的终身学习者
 
 ## 关于本站
 
