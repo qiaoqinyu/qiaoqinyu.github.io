@@ -1,0 +1,103 @@
+# ============================================================
+# 站点基本配置
+# ============================================================
+baseURL = "https://qiaoqinyu.github.io/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "QY 的学习笔记"
+theme = "PaperMod"
+paginate = 10
+
+# 支持 CJK（中日韩）字符的字数统计和摘要截断
+hasCJKLanguage = true
+
+enableEmoji = true
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# ============================================================
+# PaperMod 主题参数
+# ============================================================
+[params]
+  env = "production"
+  description = "个人学习笔记与心得体会"
+  author = "qyqiao"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "你好"
+    Content = "欢迎来到我的学习笔记。这里记录我的技术学习心得与思考。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/qiaoqinyu"
+
+# ============================================================
+# 搜索功能（JSON 输出用于 Fuse.js 搜索）
+# ============================================================
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# ============================================================
+# 导航菜单
+# ============================================================
+[[menu.main]]
+  identifier = "notes"
+  name = "笔记"
+  url = "/notes/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "categories"
+  name = "分类"
+  url = "/categories/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search/"
+  weight = 40
+
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 50
+
+[[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 60
+
+# ============================================================
+# Markup 配置
+# ============================================================
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    noClasses = false
+    style = "monokai"
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
