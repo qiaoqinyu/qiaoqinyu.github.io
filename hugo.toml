@@ -32,6 +32,7 @@ buildExpired = false
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
+  math = true
   DateFormat = "2006年01月02日"
 
   [params.homeInfoParams]
@@ -96,3 +97,8 @@ buildExpired = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['$$', '$$'], ['\[', '\]']]
+        inline = [['$', '$'], ['\(', '\)']]

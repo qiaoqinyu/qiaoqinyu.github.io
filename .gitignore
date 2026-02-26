@@ -18,4 +18,8 @@ Thumbs.db
 .agents/
 .claude/
 .trellis/
+.playwright-mcp/
 AGENTS.md
+
+# Python
+__pycache__/
