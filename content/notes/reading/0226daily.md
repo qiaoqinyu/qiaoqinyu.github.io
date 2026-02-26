@@ -2,7 +2,7 @@
 title: "0226总结：OrgFlow、OMC25、中国经济、黄金走势和心力建设"
 date: 2026-02-26T22:22:35+08:00
 lastmod: 2026-02-26T22:22:35+08:00
-draft: true
+draft: false
 tags: ["AI4S","中国经济","黄金","个人成长"]
 categories: []
 series: []
