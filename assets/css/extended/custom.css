@@ -1,0 +1,6 @@
+/* 代码块和行内代码使用更美观的等宽字体 */
+code,
+pre code {
+    font-family: "Cascadia Code", "Fira Code", "JetBrains Mono", "Source Code Pro",
+        "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+}
