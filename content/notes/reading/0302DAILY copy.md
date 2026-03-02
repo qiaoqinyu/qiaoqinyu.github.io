@@ -2,7 +2,7 @@
 title: "0302每日总结2（未润色版）:上下文管理、CCS作者的故事、哈梅内伊之死、Naval在AI时代重申软件工程的重要性"
 date: 2026-03-02T22:28:50+08:00
 lastmod: 2026-03-02T22:28:50+08:00
-draft: true
+draft: false
 tags: ["AI时代","AI-Agent","Spec驱动编程","伊朗战争"]
 categories: []
 series: []
