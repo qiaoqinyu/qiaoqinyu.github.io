@@ -170,6 +170,7 @@ date: {date_str}
 lastmod: {date_str}
 draft: {draft}
 tags: {tags_str}
+categories: []
 series: []
 summary: ""
 description: ""
@@ -178,21 +179,6 @@ TocOpen: true
 weight: 0
 ---
 
-## 概述
-
-
-
-## 核心内容
-
-
-
-## 总结
-
-
-
-## 参考资料
-
--
 """
 
     with open(filepath, "w", encoding="utf-8") as f:

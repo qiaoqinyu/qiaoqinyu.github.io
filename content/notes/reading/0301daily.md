@@ -1,5 +1,5 @@
 ---
-title: "0302每日总结：中国房地产市场、OMC25和SMARTS、AI时代择业、白酒、Citadel的内部研报、AI在美伊战争中的重要作用"
+title: "0301每日总结：中国房地产市场、OMC25和SMARTS、AI时代择业、白酒、Citadel的内部研报、AI在美伊战争中的重要作用"
 date: 2026-02-27T23:43:02+08:00
 lastmod: 2026-02-27T23:43:02+08:00
 draft: false
