@@ -34,6 +34,7 @@ buildExpired = false
   TocOpen = false
   UseHugoToc = true
   math = true
+  mainSections = ["notes"]
   DateFormat = "2006年01月02日"
 
   [params.homeInfoParams]
