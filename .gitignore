@@ -18,8 +18,10 @@ Thumbs.db
 .agents/
 .claude/
 .trellis/
+.serena/
 .playwright-mcp/
 AGENTS.md
+skills-lock.json
 
 # Python
 __pycache__/
